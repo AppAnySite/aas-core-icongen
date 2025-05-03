@@ -1,0 +1,51 @@
+{
+  "icon_sizes": {
+    "android": {
+      "mipmap-mdpi": {
+        "foreground": [108, "ic_launcher_foreground.png"],
+        "round": [48, "ic_launcher_round.png"],
+        "launcher": [48, "ic_launcher.png"]
+      },
+      "mipmap-hdpi": {
+        "foreground": [162, "ic_launcher_foreground.png"],
+        "round": [72, "ic_launcher_round.png"],
+        "launcher": [72, "ic_launcher.png"]
+      },
+      "mipmap-xhdpi": {
+        "foreground": [216, "ic_launcher_foreground.png"],
+        "round": [96, "ic_launcher_round.png"],
+        "launcher": [96, "ic_launcher.png"]
+      },
+      "mipmap-xxhdpi": {
+        "foreground": [324, "ic_launcher_foreground.png"],
+        "round": [144, "ic_launcher_round.png"],
+        "launcher": [144, "ic_launcher.png"]
+      },
+      "mipmap-xxxhdpi": {
+        "foreground": [432, "ic_launcher_foreground.png"],
+        "round": [192, "ic_launcher_round.png"],
+        "launcher": [192, "ic_launcher.png"]
+      },
+      "mipmap-ldpi": {
+        "launcher": [36, "ic_launcher.png"]
+      },
+      "playstore-icon": {
+        "launcher": [512, "playstore_icon.png"]
+      },
+      "ic_launcher-web": {
+        "launcher": [512, "ic_launcher-web.png"]
+      }
+    },
+    "ios": {
+      "AppIcon-20x20@2x": [40, 40],
+      "AppIcon-20x20@3x": [60, 60],
+      "AppIcon-29x29@2x": [58, 58],
+      "AppIcon-29x29@3x": [87, 87],
+      "AppIcon-40x40@2x": [80, 80],
+      "AppIcon-40x40@3x": [120, 120],
+      "AppIcon-60x60@2x": [120, 120],
+      "AppIcon-60x60@3x": [180, 180],
+      "AppIcon-1024x1024@1x": [1024, 1024]
+    }
+  }
+}
