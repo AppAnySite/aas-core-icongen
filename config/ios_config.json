@@ -1,0 +1,14 @@
+{
+  "output_directory": "output/icons/ios",
+  "icon_sizes": {
+    "AppIcon-20x20@2x": [40, 40],
+    "AppIcon-20x20@3x": [60, 60],
+    "AppIcon-29x29@2x": [58, 58],
+    "AppIcon-29x29@3x": [87, 87],
+    "AppIcon-40x40@2x": [80, 80],
+    "AppIcon-40x40@3x": [120, 120],
+    "AppIcon-60x60@2x": [120, 120],
+    "AppIcon-60x60@3x": [180, 180],
+    "AppIcon-1024x1024@1x": [1024, 1024]
+  }
+}
