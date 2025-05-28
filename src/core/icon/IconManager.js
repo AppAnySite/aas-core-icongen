@@ -22,12 +22,12 @@ class IconManager extends IIconManager {
       // Determine the binary path based on the operating system
       if (os.platform() === 'win32') {
         binaryPath = process.pkg ? 
-          path.join(path.dirname(process.execPath), 'libs', 'IconSplashLib', 'IconSplashLib.exe') : 
-          path.resolve(__dirname, '../../build/IconSplashLib/IconSplashLib.exe');
+          path.join(path.dirname(process.execPath), 'libs', 'aas-core-iconsplashlib', 'aas-core-iconsplashlib.exe') : 
+          path.resolve(__dirname, '../../build/aas-core-iconsplashlib/aas-core-iconsplashlib.exe');
       } else {
         binaryPath = process.pkg ? 
-          path.join(path.dirname(process.execPath), 'libs', 'IconSplashLib', 'IconSplashLib') : 
-          path.resolve(__dirname, '../../build/IconSplashLib/IconSplashLib');
+          path.join(path.dirname(process.execPath), 'libs', 'aas-core-iconsplashlib', 'aas-core-iconsplashlib') : 
+          path.resolve(__dirname, '../../build/aas-core-iconsplashlib/aas-core-iconsplashlib');
       }
 
       if (!fs.existsSync(binaryPath)) {
